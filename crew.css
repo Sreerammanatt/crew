@@ -1,0 +1,128 @@
+.base{
+    background-color: chocolate;
+}
+.main{
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    
+}
+.main2{
+    margin-top: auto;
+    background: rgb(255, 255, 255);
+    height: 50%;
+    width: 28%;
+    float: left;
+    
+}
+.main3{
+    
+    background:rgb(11, 0, 77);
+    height: 100%;
+    width:100%;
+    float: left;
+    border: black solid;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.heading{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration:solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.ext{
+   
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    background-color: rgb(15, 0, 82);
+    
+}
+    
+.img{
+   
+    height: 30%;
+    width:  30%;
+    align-items: center;
+    padding-left: 35%;
+ 
+}
+.texts{
+    padding-top: 5%;
+    color: rgb(255, 255, 255);
+    font: 1em sans-serif;
+}
+.img2{
+    float:none;
+    height: 60%;
+    width: 100%;
+    margin-top: 3%;
+    
+}
+.wish{
+    background-color:rgb(12, 19, 47) ;
+}
+  
+
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .log{
+      background-color: rgb(10, 0, 104);
+  }
+  .footer{
+    background-color: rgb(10, 0, 104);
+    text-align: center;
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .bl{
+   
+        font-size: 5em;
+        font-family: serif;
+        color: #008000;
+        text-align: center;
+        animation: animate 
+            1.5s linear infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.7;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+  }
+  
+  
